@@ -1,0 +1,21 @@
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.background--top {
+  background-image: url("../assets/bg-pattern-top.svg");
+  background-position: bottom right;
+  transform: translate(-35%, -50%);
+}
+
+.background--bottom {
+  top: 100%;
+  left: 100%;
+  background-image: url("../assets/bg-pattern-bottom.svg");
+  transform: translate(-65%, -50%);
+}
